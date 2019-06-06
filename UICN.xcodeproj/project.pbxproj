@@ -16,7 +16,6 @@
 		4932CDF122A7CEF4003172A6 /* UICNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932CDF022A7CEF4003172A6 /* UICNTests.m */; };
 		4932CDFC22A7CEF4003172A6 /* UICNUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932CDFB22A7CEF4003172A6 /* UICNUITests.m */; };
 		4932CE0B22A8D31D003172A6 /* HHAnimationLoaingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932CE0A22A8D31D003172A6 /* HHAnimationLoaingView.m */; };
-		4932CE0E22A91878003172A6 /* MyAnimationLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932CE0D22A91878003172A6 /* MyAnimationLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +54,6 @@
 		4932CDFD22A7CEF4003172A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4932CE0922A8D31D003172A6 /* HHAnimationLoaingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAnimationLoaingView.h; sourceTree = "<group>"; };
 		4932CE0A22A8D31D003172A6 /* HHAnimationLoaingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAnimationLoaingView.m; sourceTree = "<group>"; };
-		4932CE0C22A91878003172A6 /* MyAnimationLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAnimationLoadingView.h; sourceTree = "<group>"; };
-		4932CE0D22A91878003172A6 /* MyAnimationLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAnimationLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +108,6 @@
 				4932CDD822A7CEF2003172A6 /* AppDelegate.m */,
 				4932CDDA22A7CEF2003172A6 /* ViewController.h */,
 				4932CDDB22A7CEF2003172A6 /* ViewController.m */,
-				4932CE0C22A91878003172A6 /* MyAnimationLoadingView.h */,
-				4932CE0D22A91878003172A6 /* MyAnimationLoadingView.m */,
 				4932CE0922A8D31D003172A6 /* HHAnimationLoaingView.h */,
 				4932CE0A22A8D31D003172A6 /* HHAnimationLoaingView.m */,
 				4932CDDD22A7CEF2003172A6 /* Main.storyboard */,
@@ -272,7 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4932CE0E22A91878003172A6 /* MyAnimationLoadingView.m in Sources */,
 				4932CDDC22A7CEF2003172A6 /* ViewController.m in Sources */,
 				4932CDE722A7CEF4003172A6 /* main.m in Sources */,
 				4932CDD922A7CEF2003172A6 /* AppDelegate.m in Sources */,
