@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "HHAnimationLoaingView.h"
+#import "MyAnimationLoadingView.h"
 
 @interface ViewController ()
+
+//@property (nonatomic, weak) CAShapeLayer *U_layer;
+//@property (nonatomic, weak) CAShapeLayer *I_layer;
 
 @end
 
@@ -17,7 +22,27 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
+
+    MyAnimationLoadingView *animView = [[MyAnimationLoadingView alloc] initWithFrame:CGRectMake(0, 0, 32, 25)];
+    [self.view addSubview:animView];
+    animView.center = self.view.center;
+
 }
+
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    
+//    HHAnimationLoaingView *loadingView = [[HHAnimationLoaingView alloc] initWithFrame:CGRectMake(0, 0, kAnimationLoaingViewWidth, kAnimationLoaingViewHeight)];
+//    [self.view addSubview:loadingView];
+//    loadingView.center = self.view.center;
+}
+
+
+
 
 
 @end
